@@ -60,3 +60,24 @@ h1:hover {
     color: #ffffff;
 }
 
+/*--- Footer ---*/
+
+.footertext {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.icon {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.icon:hover {
+    color: rgba(255, 255, 255,.7);
+}
