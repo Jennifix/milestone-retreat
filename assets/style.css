@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /*--- Background ---*/
 
 .footer-background {
@@ -23,23 +24,27 @@ body {
 }
 
 .testimonials {
-    background-color: grey;
-    height: 45vh;
+    background-color: #005a67;
+    height: 55vh;
 }
 
 .abouttext {
-    background-color: grey;
+    background-color: #005a67;
     height: 75vh;
 }
 
 .contactform-bg {
-    background-color: grey;
-    height: 75vh;
+    background-color: #005a67;
+    height: 100vh;
 }
 
 .calendar-bg {
-    background-color: grey;
-    height: 110vh;
+    background-color: #005a67;
+    height: 105vh;
+}
+
+.about-bg {
+    height: 100vh;
 }
 
 /*--- Header ---*/
@@ -65,22 +70,22 @@ h1 {
 }
 
 h1:hover {
-    color: rgba(255, 255, 255,.7);
+    color: rgba(255, 255, 255, .7);
 }
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     color: #ffffff;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-        color: rgba(255, 255, 255,.7);
+    color: rgba(255, 255, 255, .7);
 }
 
 .nav-item-style {
     font-family: 'Signika Negative', sans-serif;
     font-weight: 300;
     margin-right: 40%;
-    
+
 }
 
 .far {
@@ -89,7 +94,7 @@ h1:hover {
 }
 
 #navbar-nav {
-    background-color:#F4436F;
+    background-color: #F4436F;
 }
 
 .navbar-light .navbar-toggler {
@@ -115,7 +120,7 @@ h1:hover {
 }
 
 .icon:hover {
-    color: rgba(255, 255, 255,.7);
+    color: rgba(255, 255, 255, .7);
 }
 
 /*--- Callout ---*/
@@ -126,20 +131,25 @@ h1:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    
+    transition: all ease-in-out;
+    -moz-transition: all ease-in-out;
+    -webkit-transition: all ease-in-out;
+    -o-transition: all ease-in-out;
+
 }
 
 .welcome {
     width: 100px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 35px;
     background-color: rgba(0, 0, 0, 0.4);
     padding: 10px;
     border-radius: 25px;
+    transition: all ease-in-out;
+    -moz-transition: all ease-in-out;
+    -webkit-transition: all ease-in-out;
+    -o-transition: all ease-in-out;
 }
 
 .call-out-quote {
@@ -147,7 +157,7 @@ h1:hover {
     font-weight: 700;
     color: #ffffff;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 /*--- Info ---*/
@@ -156,6 +166,10 @@ h1:hover {
     height: 70vh;
     background-image: url(images/men.jpg);
     background-size: cover;
+    transition: all ease-in-out;
+    -moz-transition: all ease-in-out;
+    -webkit-transition: all ease-in-out;
+    -o-transition: all ease-in-out;
 }
 
 .infotext {
@@ -165,7 +179,7 @@ h1:hover {
 
 .infolist {
     list-style-type: none;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-right: 30px;
 }
 
@@ -176,15 +190,21 @@ h1:hover {
 
 .infoicon {
     margin-right: 10px;
-    color: grey;
+    color: #FFA500;
+}
+
+.feature-header {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
 }
 
 /*--- Testimonials ---*/
 
-
 .testiquote {
     display: flex;
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Signika Negative', sans-serif;
     font-weight: 300;
     color: #ffffff;
@@ -202,10 +222,20 @@ h1:hover {
     margin-right: 10px;
 }
 
-.testiquote, .blockquote-footer {
+
+.testiquote,
+.blockquote-footer {
     font-family: 'Signika Negative', sans-serif;
     font-weight: 300;
     color: #ffffff;
+}
+
+.test-title {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 30px;
+    text-align: center;
 }
 
 /*--- About Image ---*/
@@ -215,10 +245,11 @@ h1:hover {
     background-image: url(images/house.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    transition: all ease-in-out;
+    -moz-transition: all ease-in-out;
+    -webkit-transition: all ease-in-out;
+    -o-transition: all ease-in-out;
 }
 
 /*--- About Text ---*/
@@ -241,14 +272,26 @@ h1:hover {
     border-radius: 25px;
 }
 
+.abouttext2 {
+    width: 850px;
+    border-radius: 25px;
+    margin-left: 240px;
+    margin-top: 30px
+}
+
+.center {
+    text-align: center;
+}
+
 /*--- About Video ---*/
 
-.infovideo {
+.video {
     background-color: white;
-    margin: 50px;
-    margin-left: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
-    
+
 /*--- Contact ---*/
 
 .contactimage {
@@ -256,167 +299,57 @@ h1:hover {
     background-image: url(images/forest.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    transition: all ease-in-out;
+    -moz-transition: all ease-in-out;
+    -webkit-transition: all ease-in-out;
+    -o-transition: all ease-in-out;
 }
 
-.contactform
+.contactform {
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.adress {
+    margin-top: 30px;
+    background-color: rgb(225, 225, 225, 0.5);
+    height: 81vh;
+}
+
+.adressinfo {
+    margin-top: 20px;
+}
 
 /*--- Calendar ---*/
 
-
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
-
-*[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
+.calendartext {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 30px;
 }
 
-/* ---------- GENERAL ---------- */
-
-body {
-	background: #f9f9f9;
-	color: #0e171c;
-	font: 300 100%/1.5em 'Lato', sans-serif;
-	margin: 0;
+.ccenter {
+    margin-bottom: 30px;
+    text-align: center;
 }
 
-a {
-	text-decoration: none;
-}
-
-h2 {
-	font-size: 2em;
-	line-height: 1.25em;
-	margin: .25em 0;
-}
-
-h3 {
-	font-size: 1.5em;
-	line-height: 1em;
-	margin: .33em 0;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-.container {
-	height: 538px;
-	left: 50%;
-	margin: -255px 0 0 -245px;
-	position: absolute;
-	top: 50%;
-	width: 510px;
-}
-
-/* ---------- CALENDAR ---------- */
-
-.calendar {
-	text-align: center;
-}
-
-.calendar header {
-	position: relative;
-}
-
-.calendar h2 {
-	text-transform: uppercase;
-}
-
-.calendar thead {
-	font-weight: 600;
-	text-transform: uppercase;
-}
-
-.calendar tbody {
-	color: #7c8a95;
-}
-
-.calendar tbody td:hover {
-	border: 2px solid #00addf;
-}
-
-.calendar td {
-	border: 2px solid transparent;
-	border-radius: 50%;
-	display: inline-block;
-	height: 4em;
-	line-height: 4em;
-	text-align: center;
-	width: 4em;
-}
-
-.calendar .prev-month,
-.calendar .next-month {
-	color: #cbd1d2;
-}
-
-.calendar .prev-month:hover,
-.calendar .next-month:hover {
-	border: 2px solid #cbd1d2;
-}
-
-.current-day {
-	background: #00addf;
-	color: #f9f9f9;
-}
-
-.event {
-	cursor: pointer;
-	position: relative;
-}
-
-.event:after {
-	background: #00addf;
-	border-radius: 50%;
-	bottom: .5em;
-	display: block;
-	content: '';
-	height: .5em;
-	left: 50%;
-	margin: -.25em 0 0 -.25em;
-	position: absolute;
-	width: .5em;
-}
-
-.event.current-day:after {
-	background: #f9f9f9;
-}
-
-.btn-prev,
-.btn-next {
-	border: 2px solid #cbd1d2;
-	border-radius: 50%;
-	color: #cbd1d2;
-	height: 2em;
-	font-size: .75em;
-	line-height: 2em;
-	margin: -1em;
-	position: absolute;
-	top: 50%;
-	width: 2em;
-}
-
-.btn-prev:hover,
-.btn-next:hover {
-	background: #cbd1d2;
-	color: #f9f9f9;
-}
-
-.btn-prev {
-	left: 6em;
-}
-
-.btn-next {
-	right: 6em;
-}
-
-.calendar-look {
-    background-color: #ffffff;
-    margin-top: 100px;
+.calendar-image {
+    height: 100vh;
+    background-image: url(images/landscape.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all ease-in-out;
+    -moz-transition: all ease-in-out;
+    -webkit-transition: all ease-in-out;
+    -o-transition: all ease-in-out;
 }
 
 /*--- Media Queries ---*/
@@ -427,11 +360,47 @@ table {
     }
     .testimonials {
         height: 110vh;
-        margin-top: 40vh;
-        margin-bottom: 10vh;
-        padding-top: 10vh;
-        padding-bottom: 20vh;
-        background-color: grey;
+        margin-top: 250px;
+    }
+    .testperson {
+        display: none;
+    }
+    .infobox {
+        width: 340px;
+    }
+    .abouttext{
+        height: 100vh;
+        width: 380px;
+    }
+    .about-bg{
+        height: 110vh;
     }
     
-} 
+    .abouttext2, .video{
+        width: 350px;
+        margin:0;
+        padding-top: 20px;
+    }
+    .video {
+        padding-right: 10px;
+    }
+    .calendar {
+        width: 380px;
+    }
+    
+    .googlecalendar {
+        width: 330px;
+    }
+    .textarea {
+        width: 300px;
+    }
+    .contactform-bg {
+        height: 130vh;
+    }
+    .adress {
+        height: 50vh;
+    }
+    .footer-background {
+        height: 45vh;
+    }
+}
