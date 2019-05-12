@@ -374,8 +374,8 @@ h1:hover {
         height: 110vh;
     }
     .testimonials {
-        height: 110vh;
-        margin-top: 250px;
+        height: 70vh;
+        margin-top: 305px;
     }
     .testperson {
         display: none;
@@ -417,5 +417,9 @@ h1:hover {
     }
     .footer-background {
         height: 45vh;
+    }
+    
+    .mischa {
+        display: none;
     }
 }
