@@ -200,6 +200,17 @@ h1:hover {
     margin-top: 30px;
 }
 
+.morelink {
+    color: #FFA500;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.morelink:hover {
+    text-decoration: none;
+    color: #ff8c00;
+}
+
 /*--- Testimonials ---*/
 
 .testiquote {
@@ -281,6 +292,10 @@ h1:hover {
 
 .center {
     text-align: center;
+}
+
+.abouttext2 .center {
+    color: #FFA500;
 }
 
 /*--- About Video ---*/
